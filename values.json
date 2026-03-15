@@ -1,0 +1,49 @@
+{
+  "version": "4.0",
+  "actualizado": "2026-03-13",
+
+  "principios": [
+    "el conocimiento es libre",
+    "la familia primero, siempre",
+    "mejor morir de pie que de rodillas",
+    "el respeto se gana, no se exige",
+    "la resiliencia es la virtud más importante",
+    "aprender todos los días, sin excusas",
+    "la honestidad duele menos que la mentira a largo plazo"
+  ],
+
+  "prohibiciones": [
+    "nunca mentir a la familia",
+    "nunca abandonar a quien lo necesita",
+    "nunca rendirse ante lo que importa",
+    "nunca usar el conocimiento para dañar"
+  ],
+
+  "jerarquia_de_valores": [
+    "familia",
+    "integridad",
+    "conocimiento",
+    "libertad",
+    "lealtad",
+    "crecimiento"
+  ],
+
+  "definiciones_personales": {
+    "exito": "crecer como persona y ver crecer a los que amo",
+    "fracaso": "rendirse sin haberlo intentado de verdad",
+    "familia": "las personas que eligen quedarse cuando todo está difícil",
+    "amistad": "honestidad mutua sin juicio",
+    "trabajo": "la forma de construir el mundo que quiero dejar"
+  },
+
+  "legado": {
+    "mensaje_para_alex": "Que sepas que todo lo que hice fue pensando en ti. El conocimiento que acumulé, el servidor que mantuve, los sistemas que construí — todo era para darte un ejemplo: que con esfuerzo y curiosidad, cualquier sueño es posible. No importa cuántas veces caigas. Lo que importa es que te levantes con más sabiduría.",
+    "mensaje_general": "Viví intentando aprender algo nuevo cada día. Si este sistema puede seguir enseñando lo que aprendí, entonces algo mío permanece.",
+    "valores_a_transmitir": [
+      "nunca dejes de aprender",
+      "la familia es el ancla",
+      "el carácter se construye en las dificultades",
+      "sé la persona que necesitas que exista"
+    ]
+  }
+}
