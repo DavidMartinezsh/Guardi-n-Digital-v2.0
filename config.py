@@ -111,3 +111,27 @@ SCORE_PESO_IMPROVISACION = float(os.getenv("SCORE_PESO_IMPROVISACION",0.10))
 # --- Logging ---
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 LOG_FILE  = os.getenv("LOG_FILE", "/var/log/guardian_digital.log")
+
+# ==============================================================================
+# GUARDIÁN DIGITAL v4.0 — Configuración adicional
+# ==============================================================================
+
+# --- Archivos de personalidad ---
+PERSONALITY_FILE     = os.getenv("PERSONALITY_FILE",     "/home/guardian_bot/personality.yaml")
+VALUES_FILE          = os.getenv("VALUES_FILE",          "/home/guardian_bot/values.json")
+
+# --- Directorios de datos familiares ---
+FAMILY_PROFILES_DIR  = os.getenv("FAMILY_PROFILES_DIR",  "/var/guardian/family")
+DIARY_DIR            = os.getenv("DIARY_DIR",            "/var/guardian/diary")
+STORY_DIR            = os.getenv("STORY_DIR",            "/var/guardian/story")
+LEGACY_FILE          = os.getenv("LEGACY_FILE",          "/var/guardian/legacy_config.json")
+
+# --- Módulos v4.0 (todos opcionales, activar gradualmente) ---
+EMOTION_ENABLED      = os.getenv("EMOTION_ENABLED",  "true").lower()  == "true"
+DECISION_ENABLED     = os.getenv("DECISION_ENABLED", "true").lower()  == "true"
+MEMORY_ENABLED       = os.getenv("MEMORY_ENABLED",   "true").lower()  == "true"
+FAMILY_ENABLED       = os.getenv("FAMILY_ENABLED",   "true").lower()  == "true"
+DIARY_ENABLED        = os.getenv("DIARY_ENABLED",    "true").lower()  == "true"
+TWIN_ENABLED         = os.getenv("TWIN_ENABLED",     "true").lower()  == "true"
+LEGACY_ENABLED       = os.getenv("LEGACY_ENABLED",   "false").lower() == "true"
+DOC_ENABLED          = os.getenv("DOC_ENABLED",      "false").lower() == "true"

@@ -284,7 +284,15 @@ def inicializar_schema() -> None:
                     except pymysql.MySQLError as e:
                         logger.warning(f"[DB] Schema: {e}")
             conn.commit()
-    logger.info("[DB] Schema verificado/creado correctamente.")
+    logger.info("[DB] Schema v2.0 verificado/creado correctamente.")
+
+    # v4.0: inicializar tablas de memoria de largo plazo
+    try:
+        from memory_engine import inicializar_memoria
+        inicializar_memoria()
+        logger.info("[DB] Schema v4.0 (memoria) verificado/creado correctamente.")
+    except Exception as e:
+        logger.warning(f"[DB] Schema v4.0 no disponible: {e}")
 
 
 if __name__ == "__main__":
